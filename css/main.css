@@ -1,0 +1,133 @@
+/* <!----------------------       header         ----------------------> */
+
+.header{
+    background-image: linear-gradient(rgba(214, 66, 66, 0.6) , rgba(236, 80, 80, 0.6)) ,url(../bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+h2 {
+    font-size: 60px;
+}
+.slideNav{
+ 
+  position: fixed;
+  left: -200;
+}
+.options{
+ width: 200px;
+;
+}
+
+.nav-link{
+  transition: all 1s;
+}
+.nav-link:hover{
+color: #4E1211;
+}
+/* <!----------------------       sliderdown       ---------------------->  */
+h3{
+  background-color: #E68184;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+.content ,.slider{
+  background-color:#CCCCCC;
+}
+.content-f , .content-s  , .content-t  , .content-h  {
+  display: none;
+}
+ 
+/* <!----------------------       counter          ---------------------->    */
+
+
+#countdown {
+  font-family: Arial, sans-serif;
+  font-size: 2rem; /* Base font size */
+  text-align: center;
+  height: 250px;
+  padding-top: 100px;
+  margin-top: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: white;
+  max-width: 100%; /* Ensures it doesn't overflow on small screens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(rgba(214, 66, 66, 0.6) , rgba(236, 80, 80, 0.6)) ,url(../overlay-bg.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* <!----------------------      JOIN US         ---------------------->    */
+
+
+.social {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
+.social i {
+  font-size: 2rem; 
+  color: #333;
+  border: 1px solid #ddd; 
+  border-radius: 50%; 
+  padding: 10px;
+  transition: all 0.3s ease; 
+}
+
+.social i:hover {
+  color: #fff; 
+  background-color: #d6424299; 
+  border-color: #d6424299;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
